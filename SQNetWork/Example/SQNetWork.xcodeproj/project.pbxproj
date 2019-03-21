@@ -247,6 +247,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "heiguoliangle@163.com";
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = 865L62UDE9;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -505,6 +508,7 @@
 			baseConfigurationReference = 49A719F4D8C869386E1A57DD /* Pods-SQNetWork_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 865L62UDE9;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SQNetWork/SQNetWork-Prefix.pch";
 				INFOPLIST_FILE = "SQNetWork/SQNetWork-Info.plist";
@@ -520,6 +524,7 @@
 			baseConfigurationReference = 52F15EBDC3948B56B5DA8971 /* Pods-SQNetWork_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 865L62UDE9;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SQNetWork/SQNetWork-Prefix.pch";
 				INFOPLIST_FILE = "SQNetWork/SQNetWork-Info.plist";

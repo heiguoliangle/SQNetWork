@@ -7,10 +7,14 @@
 
 #import <Foundation/Foundation.h>
 
+
 NS_ASSUME_NONNULL_BEGIN
 
 @interface SQReqeustCache : NSObject
-
+/// 请求接口hash值
+@property(nonatomic,assign)NSInteger indentify;
+/// 响应数据
+@property(nonatomic,strong) NSData * responseData;
 @end
 
 NS_ASSUME_NONNULL_END
