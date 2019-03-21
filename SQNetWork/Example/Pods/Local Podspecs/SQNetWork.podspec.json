@@ -1,0 +1,30 @@
+{
+  "name": "SQNetWork",
+  "version": "0.1.0",
+  "summary": "A short description of SQNetWork.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/heiguoliangle@163.com/SQNetWork",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "heiguoliangle@163.com": "heiguo@ibantang.com"
+  },
+  "source": {
+    "git": "https://github.com/heiguoliangle@163.com/SQNetWork.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "SQNetWork/Classes/**/*",
+  "dependencies": {
+    "AFNetworking": [
+
+    ],
+    "WCDB": [
+
+    ]
+  }
+}
