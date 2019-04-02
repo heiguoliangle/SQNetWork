@@ -23,20 +23,23 @@
 		058BEF99C15EABC342C612D03C8AD79C /* status.c in Sources */ = {isa = PBXBuildFile; fileRef = 256F8308A80E9F2242B95DC9C71D6AE8 /* status.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		06C2CAB46D7F362570FB29AAF9029C44 /* fts3_hash.c in Sources */ = {isa = PBXBuildFile; fileRef = C66A9D4503C40A3A97B5E063CFB4ECD4 /* fts3_hash.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		071F87E31A858D84F93606C17CFAED83 /* handle_statement.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F4D2A57416764BB43E8B80B283A0D3AA /* handle_statement.cpp */; };
+		07306A7C22531C6E007081DC /* SQNNetWokrManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 07306A7A22531C6E007081DC /* SQNNetWokrManager.h */; };
+		07306A7D22531C6E007081DC /* SQNNetWokrManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 07306A7B22531C6E007081DC /* SQNNetWokrManager.m */; };
+		07306A8022531C79007081DC /* SQNNetWorkResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 07306A7E22531C79007081DC /* SQNNetWorkResponse.h */; };
+		07306A8122531C79007081DC /* SQNNetWorkResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 07306A7F22531C79007081DC /* SQNNetWorkResponse.m */; };
+		07306A8422531C8E007081DC /* SQNNetWorkPingTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 07306A8222531C8E007081DC /* SQNNetWorkPingTool.h */; };
+		07306A8522531C8E007081DC /* SQNNetWorkPingTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 07306A8322531C8E007081DC /* SQNNetWorkPingTool.m */; };
+		07306A8822531CB0007081DC /* SQNNetWorkRequestConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 07306A8622531CB0007081DC /* SQNNetWorkRequestConfig.h */; };
+		07306A8922531CB0007081DC /* SQNNetWorkRequestConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 07306A8722531CB0007081DC /* SQNNetWorkRequestConfig.m */; };
+		07306A8B22531CFE007081DC /* SQNNetWorkResponseProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 07306A8A22531CFE007081DC /* SQNNetWorkResponseProtocol.h */; };
+		07306A8E225338F6007081DC /* SQNNetWorkRequestProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 07306A8D225338F6007081DC /* SQNNetWorkRequestProtocol.h */; };
+		07306A9122533D63007081DC /* SQNMacro.h in Headers */ = {isa = PBXBuildFile; fileRef = 07306A9022533D62007081DC /* SQNMacro.h */; };
+		07306A9322535123007081DC /* SQNNetWorkingDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 07306A9222533EFD007081DC /* SQNNetWorkingDefines.h */; };
+		07306A96225353BD007081DC /* SQNNetWorkBaseRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 07306A94225353BD007081DC /* SQNNetWorkBaseRequest.h */; };
+		07306A98225353C0007081DC /* SQNNetWorkBaseRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 07306A95225353BD007081DC /* SQNNetWorkBaseRequest.m */; };
+		07306A9A22535F21007081DC /* SQNNetWorkResponseInterceptor.h in Headers */ = {isa = PBXBuildFile; fileRef = 07306A9922535F21007081DC /* SQNNetWorkResponseInterceptor.h */; };
 		076C00AFD23F6DF56093E24AC4E1F72A /* AFCompatibilityMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 77FA6F24DCFE7DD5F0BFA8070B4768B6 /* AFCompatibilityMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		077E63D68E41DAF6AB92F95C562258A7 /* AFImageDownloader.h in Headers */ = {isa = PBXBuildFile; fileRef = 38C8051247AC3E491297C93ADEF741A3 /* AFImageDownloader.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		07CE3F2C22439B5000FA3E78 /* SQLocalDataManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 07CE3F2A22439B5000FA3E78 /* SQLocalDataManager.h */; };
-		07CE3F2D22439B5000FA3E78 /* SQLocalDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 07CE3F2B22439B5000FA3E78 /* SQLocalDataManager.m */; };
-		07CE3F3522439CDE00FA3E78 /* SQReqeustCache+WCTTableCoding.h in Headers */ = {isa = PBXBuildFile; fileRef = 07CE3F3322439CDE00FA3E78 /* SQReqeustCache+WCTTableCoding.h */; };
-		07CE3F3A22439D2300FA3E78 /* SQNetWork.h in Headers */ = {isa = PBXBuildFile; fileRef = 07CE3F3822439D2300FA3E78 /* SQNetWork.h */; };
-		07CE3F3E22439F7800FA3E78 /* SQNetWorkConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 07CE3F3C22439F7800FA3E78 /* SQNetWorkConfig.h */; };
-		07CE3F3F22439F7800FA3E78 /* SQNetWorkConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 07CE3F3D22439F7800FA3E78 /* SQNetWorkConfig.m */; };
-		07CE3F422243A00000FA3E78 /* SQNetWorkPingTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 07CE3F402243A00000FA3E78 /* SQNetWorkPingTool.h */; };
-		07CE3F432243A00000FA3E78 /* SQNetWorkPingTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 07CE3F412243A00000FA3E78 /* SQNetWorkPingTool.m */; };
-		07CE3F462243A0AE00FA3E78 /* SQNetWorkResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 07CE3F442243A0AE00FA3E78 /* SQNetWorkResponse.h */; };
-		07CE3F472243A0AE00FA3E78 /* SQNetWorkResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 07CE3F452243A0AE00FA3E78 /* SQNetWorkResponse.m */; };
-		07CE3F4A2243A10C00FA3E78 /* SQNetProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 07CE3F482243A10C00FA3E78 /* SQNetProxy.h */; };
-		07CE3F4B2243A10C00FA3E78 /* SQNetProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 07CE3F492243A10C00FA3E78 /* SQNetProxy.m */; };
 		07DFF0A30EAD1A4842A6327B33BD05C5 /* WCTCompatible.h in Headers */ = {isa = PBXBuildFile; fileRef = BACF86FFE6A32F7EB45047B23B6F914F /* WCTCompatible.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		08FC0F8756A71B25CBE7498C2B46E6CC /* sqliteInt.h in Headers */ = {isa = PBXBuildFile; fileRef = FFFC7CB752BDB56B041698E881E65F7E /* sqliteInt.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		0913E4F4520F79FF098EE0503FC0CF3B /* statement_select.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FEAD15FD83E6A78812575ADED0F538C7 /* statement_select.cpp */; };
@@ -59,7 +62,6 @@
 		11CFF872F9768B01BC36C8FDE229D8BD /* WCTDatabase.mm in Sources */ = {isa = PBXBuildFile; fileRef = 9DCC06C9B2E80846E014DAD904318408 /* WCTDatabase.mm */; };
 		1250BFC683A0FDEE70F6369B8417FE11 /* fts_module.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9D2D7B19E7AA948D6D858C2983455FFF /* fts_module.cpp */; };
 		127047B5499C9C1D00A5E7AC2F05D18A /* WCTTransaction+Compatible.h in Headers */ = {isa = PBXBuildFile; fileRef = E5B666424AC6C717974C14CADA9FB2DB /* WCTTransaction+Compatible.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		130B69BBCC3AE906FF13C0B895D082E6 /* SQReqeustCache.mm in Sources */ = {isa = PBXBuildFile; fileRef = 51B8AC3C80B80F039764287BBBD94838 /* SQReqeustCache.mm */; };
 		1327CF86E4F60B67A82240407F0DEE72 /* WCTSequence+WCTTableCoding.h in Headers */ = {isa = PBXBuildFile; fileRef = 8093A02836DF02456B6D8B8F4C9CF2B4 /* WCTSequence+WCTTableCoding.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		13B5CF49D9FC3901BF676ABD468513D2 /* vdbe.c in Sources */ = {isa = PBXBuildFile; fileRef = E8935F16A61A39797E6C0C08F01495B0 /* vdbe.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		13C514E7687DCFA91AE074C7C77BDF0F /* date.c in Sources */ = {isa = PBXBuildFile; fileRef = BDDED6C2120487D9D8144D90768F64E3 /* date.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
@@ -80,6 +82,7 @@
 		1B4E08F215A4B2F6DAFA8563A6F22F5C /* WCTTransaction+Statistics.h in Headers */ = {isa = PBXBuildFile; fileRef = B7DBA4A4F752950D2A5E3C8B92B0DF2B /* WCTTransaction+Statistics.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1CDE5A5BED18858EB8C13ACD22E3760A /* WCTTransaction+Compatible.mm in Sources */ = {isa = PBXBuildFile; fileRef = F1E4E86554B97461CF8C8F8FBFA7AB99 /* WCTTransaction+Compatible.mm */; };
 		1D88D10AAAE2C8AC7222D698E55D5E8F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D2883CA59ABCE9CD6A05BF4899070A8 /* CoreGraphics.framework */; };
+		1D9C2D1D006680A28C2C5816FDBBD040 /* SQReqeustCache+WCTTableCoding.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F0E785E3CD4245CDBF0DFF61B1C2901 /* SQReqeustCache+WCTTableCoding.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1DBA548ED79A4FAC73753F28B9F8185D /* WCTTransaction.h in Headers */ = {isa = PBXBuildFile; fileRef = 9065EB557E7C110EA0E0428614EF8993 /* WCTTransaction.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1E7DE4D55C8A810D565DDE573322F859 /* WCTExpr.mm in Sources */ = {isa = PBXBuildFile; fileRef = 639B8ACDA561150D9672293D58DF07AC /* WCTExpr.mm */; };
 		1FC31FB0F30FDEA9E69740D835F99615 /* WCTStatement+Compatible.mm in Sources */ = {isa = PBXBuildFile; fileRef = F36FAEC27E86D3BE4C00F966B6F6F6E9 /* WCTStatement+Compatible.mm */; };
@@ -124,7 +127,7 @@
 		33029FDB5016A2F7A44E187BB61840F8 /* UIImage+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 187E7A29733DAFB48AE974A9D9908F1C /* UIImage+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		349047A9C3E372C5BA801BF684477529 /* WCTPropertyBase.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D4CD4B383C80DAA408E55EAF83938D3 /* WCTPropertyBase.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		349E81E11BBEDA58F420A5C89D21C83A /* WCTDatabase+Table.mm in Sources */ = {isa = PBXBuildFile; fileRef = ED81026932482F3812CA82D57F8BFFFD /* WCTDatabase+Table.mm */; };
-		37089FA0D31BC428EEDE71F1DA11600E /* SQNetWorkAgent.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C2C64AEA5D3E08F392C3191ECCF0D6C /* SQNetWorkAgent.m */; };
+		371E402339462A2AA6AEB579B4B29903 /* SQNetWork.h in Headers */ = {isa = PBXBuildFile; fileRef = 2447F464FE474C774857A7FD1F7413B9 /* SQNetWork.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3724A1D3CCA5A1E75F42F5F08B71E461 /* order.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0627F811005D371EA4A7B4DF07317B41 /* order.cpp */; };
 		3924D58C4E41ADA0D153F868D784BAB0 /* vdbemem.c in Sources */ = {isa = PBXBuildFile; fileRef = E42335D25E7B993EC6BF6E3FE3BD6126 /* vdbemem.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		393350EACACCD5B2386CB8FDC7AD59F2 /* WCTUpdate.h in Headers */ = {isa = PBXBuildFile; fileRef = F431B4527AE228030C5DFD8E7F3BDE1F /* WCTUpdate.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -174,7 +177,6 @@
 		5431F328BCD8D4380808F311CFED02A7 /* global.c in Sources */ = {isa = PBXBuildFile; fileRef = 8F3A2DF50B2632F7B0D3EA3C5D103B6E /* global.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		54DE9A092954A4D0056C017E809C500E /* queue.c in Sources */ = {isa = PBXBuildFile; fileRef = 1333CE0750CF962207546E29933D2A8A /* queue.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		55201EA0C2C1687E014551A8E6C9D46B /* spin.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 02529829B2E1B67BD6671971B11D2F0B /* spin.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
-		55CBFD06D4BA8DB476A2CD29C0D5BA14 /* SQNetWork-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 54820ACCA745B9082BE519C2B0329053 /* SQNetWork-dummy.m */; };
 		55F2FBC10669C94E060D32D0556B0901 /* threads.c in Sources */ = {isa = PBXBuildFile; fileRef = 1A947FB70C8FA94D069B637D2EF0C503 /* threads.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		5636A76EB719ACC7CFF3667938E14AB0 /* statement_explain.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 34F782586E69AC0A694485AD1A00ADD4 /* statement_explain.cpp */; };
 		5649980425B58CD9A86C0C627ADF773A /* vtab.c in Sources */ = {isa = PBXBuildFile; fileRef = 7FC26FD05EF0119819EA4EB5BFFBF3CF /* vtab.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
@@ -236,7 +238,6 @@
 		73ED1A65EA08CDCF1CD9CB179046B0B3 /* statement_transaction.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 37A40299AD783E3ECE9595A298A3891C /* statement_transaction.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
 		743BE7B7119CBE87393778B7CEFF922D /* fts3_aux.c in Sources */ = {isa = PBXBuildFile; fileRef = 5B22D73B738439F283B14872F950AD19 /* fts3_aux.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		7482E964445BD6FF3DBD634EB7D228B2 /* WCTInterface+Core.mm in Sources */ = {isa = PBXBuildFile; fileRef = 51E3E74A115A515D5F4E0E67A1F365FE /* WCTInterface+Core.mm */; };
-		74A0B94639BE7B73698D740B5AC79583 /* SQNetWorkAgent.h in Headers */ = {isa = PBXBuildFile; fileRef = 771DC135031B1243E7166DADAF8EBEFC /* SQNetWorkAgent.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		74BB8A35F998E78A61E83DC24C98C2C6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CB93D01FED305AD070AE25CD1C5CFB0 /* Foundation.framework */; };
 		753886EA6AD6669080814BC4F56B1B1C /* WCTDelete.h in Headers */ = {isa = PBXBuildFile; fileRef = B0AA4B7F269F16362E018700AF7D48B6 /* WCTDelete.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		759A7F035FC779628370DA4A257BF35B /* WCTCore.h in Headers */ = {isa = PBXBuildFile; fileRef = 85A8CD8B340171E289435C7FD88FBEB8 /* WCTCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -293,7 +294,6 @@
 		8AF3FF16ECEF02B52DF26F7CFBFEA71F /* fts3_snippet.c in Sources */ = {isa = PBXBuildFile; fileRef = 057730BB82429B1FB94AD7CA0984B6FB /* fts3_snippet.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		8B1D55F4B471ABB34ADEC1335A2E4404 /* WCTDatabase+Database.h in Headers */ = {isa = PBXBuildFile; fileRef = 885BD1D908445FB453803A281DD9B9D5 /* WCTDatabase+Database.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8B2874F670DAE042FD93DFB056E59C52 /* AFNetworking-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A14A24A369CFA58E360695DDB971650 /* AFNetworking-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8C19EAC9CB6BE650C7037E038C5B0D14 /* SQReqeustCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 6BF232729837C3ABB09DDAFBE722C0DA /* SQReqeustCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8C2A9E5A10FA30656EDE46E1E67970EF /* SQLiteRepairKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 450CAA3584FBFFF007EE56093BA363A7 /* SQLiteRepairKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8E7477E7F235990681F4254B01CBA6D3 /* module_argument.hpp in Headers */ = {isa = PBXBuildFile; fileRef = A79D75FE890B332208126895089812B6 /* module_argument.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
 		8FDF5C0CFE5DF7837084C55B8C2D3513 /* alter.c in Sources */ = {isa = PBXBuildFile; fileRef = 0E65DA6F4A955B76940DC79D0D379FEB /* alter.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
@@ -304,6 +304,7 @@
 		919C3E97D651C62275321EB1363F25FB /* rtree.c in Sources */ = {isa = PBXBuildFile; fileRef = 90576D954C14FBD7761EB7DB52A19DE5 /* rtree.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		93093357A370E1EA765CA6C7E669F4E1 /* whereexpr.c in Sources */ = {isa = PBXBuildFile; fileRef = 493F06D1EA71678C83A9B17BFF802D0B /* whereexpr.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		9328534E89780331EB87306F05A044F8 /* WCTChainCall+Statistics.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F3D9B8C48CD5E7D420A7A2890ACFF26 /* WCTChainCall+Statistics.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		93BF1A1150FB0BF3AAC3DC7DEAE074C5 /* SQNetWork-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FEA1DD65294F6CBFF2232694BC406EBC /* SQNetWork-dummy.m */; };
 		94A0A79A55E621F6913BD3808AA10D7B /* WCTDeclare.h in Headers */ = {isa = PBXBuildFile; fileRef = D21FFA9718E1E147B5A31C284F7DAD00 /* WCTDeclare.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		94F5242E1B67EA05E234223C5092D93D /* statement_create_virtual_table.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 837382E5C3C4FC803A2CCA5F1C756896 /* statement_create_virtual_table.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
 		957244D6D985DFBAFE353B2D372D7F23 /* clause_join.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B19424B9763C918C5099201E6E524227 /* clause_join.cpp */; };
@@ -339,6 +340,7 @@
 		A1E9C9F57C753F19D238040520461E63 /* core_base.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4BFDC9D10DCC410202C53454F0181E8C /* core_base.cpp */; };
 		A20480EE7ED894B7EB5E5B18ED7B9EA8 /* WCTConstraintBinding.h in Headers */ = {isa = PBXBuildFile; fileRef = A27D8FB31F0999D6E6D7C290109EB4A0 /* WCTConstraintBinding.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A38FC8A4F52F35FE0AD19FA8CC73D484 /* ticker.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04BFC63FFD6DD85D10D6F4C7E35427D3 /* ticker.cpp */; };
+		A3EA77FDB0F7ACFD82A38F34B8501607 /* SQReqeustCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 4031803CBB5D92C54D553DA9E21DD9D1 /* SQReqeustCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A3F8FE912A6E927E94343731BBA71676 /* WCTDatabase+FTS.h in Headers */ = {isa = PBXBuildFile; fileRef = D46B2EAA64226FACCB570D43C8E28652 /* WCTDatabase+FTS.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A41B71CF7BBC3401A605A8EEF3778D05 /* WCTSelectBase+WCTExpr.h in Headers */ = {isa = PBXBuildFile; fileRef = AC4AC72F7F318F079C0E7AD3E8B28995 /* WCTSelectBase+WCTExpr.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A453AF0137D0FC94D0CF529D33C2D226 /* WCTStatement.mm in Sources */ = {isa = PBXBuildFile; fileRef = E7EBC57CB2D9EE5C12079571D37FA1D7 /* WCTStatement.mm */; };
@@ -359,7 +361,6 @@
 		AD51310A53A32A7C19CC668441BA573F /* WCTStatistics.mm in Sources */ = {isa = PBXBuildFile; fileRef = F9232B16A8B65F83CD9A93A11889055E /* WCTStatistics.mm */; };
 		AD6F6981982CF8DF51686C309E7E2830 /* statement_create_table.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 56135FBF48917CDDAF68CE6F353545A0 /* statement_create_table.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
 		B0249028F3F7386E35BA78AEC633AB66 /* WCTDatabase+Database.mm in Sources */ = {isa = PBXBuildFile; fileRef = C70E24A916EDF12B79A63A282F06069A /* WCTDatabase+Database.mm */; };
-		B07A9E64721742429281A8EF382E9735 /* SQNetWork-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 22EC7E08141F8DF5D3142B08D865CC30 /* SQNetWork-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B0FE1AC303CE8CB9F7C029AD1D3D1E12 /* AFNetworkReachabilityManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FBD17ECA418C685F31EADE385B1A328 /* AFNetworkReachabilityManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B10BEA011F90F0995F1983BACF129D92 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23AA09D0CCEE73A94125B62A915E559B /* UIKit.framework */; };
 		B113F857B09C6E34018EB8808D573B72 /* describable.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 43E8466ED4F57A02DFB1E62E78395329 /* describable.cpp */; };
@@ -370,6 +371,7 @@
 		B3054E838805B3538E7C43C8884DB979 /* crypto_libtomcrypt.c in Sources */ = {isa = PBXBuildFile; fileRef = CF8CBD93392F0E72CDD956AD97F0C7CD /* crypto_libtomcrypt.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		B38FCD03C26CB862BFD8DA082DE1B055 /* where.c in Sources */ = {isa = PBXBuildFile; fileRef = 31FD3C83C534596FB4C69A642697769A /* where.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		B3FD584993789FA55C1AB3C0611D0433 /* statement_detach.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1A97A8E7901084C4A2646B4166B18DF0 /* statement_detach.cpp */; };
+		B4A78707AAE5B99D70342865C6CC3DDF /* SQLocalDataManager.h in Headers */ = {isa = PBXBuildFile; fileRef = EC614DB81AE4FAEDBE65E7518F63BA69 /* SQLocalDataManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B56102280CA4A38DD0F762E006F18220 /* rowset.c in Sources */ = {isa = PBXBuildFile; fileRef = C6369E25D3A94D4376CC62721D99E318 /* rowset.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		B61E0FF5C7D3B4AD7F9A5076E8DE6EE7 /* WCTExpr.h in Headers */ = {isa = PBXBuildFile; fileRef = 14199CB935625DF1320906077488E65C /* WCTExpr.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B7C328543B7C136395BCCD9DA48D9302 /* WCTInterface+Table.h in Headers */ = {isa = PBXBuildFile; fileRef = F94B191B9DCB92CB71E20F13AAB727E8 /* WCTInterface+Table.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -383,6 +385,7 @@
 		BB6E68DF024845166674D96AE6CAA5B1 /* WCTStatistics.h in Headers */ = {isa = PBXBuildFile; fileRef = D2BF1F0D5680D73A0068B7B00CBC3FD9 /* WCTStatistics.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BB84D0FFF481FEAC088F763E1EA185A2 /* mutex_noop.c in Sources */ = {isa = PBXBuildFile; fileRef = 98B5E570AC6452053EC21A4F1DBAEC0F /* mutex_noop.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		BC9C8F03FAB6041E529501613AB7BAA6 /* btreeInt.h in Headers */ = {isa = PBXBuildFile; fileRef = C583B144BF80CDB364AC534F5027DC51 /* btreeInt.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		BD41DBFAAF6BC747DAC0FE697EE23461 /* SQReqeustCache.mm in Sources */ = {isa = PBXBuildFile; fileRef = DD1B9610DEA381B0A2669FE68231D22D /* SQReqeustCache.mm */; };
 		BD7AE91A3889109D822BE2C34D17D6AC /* database.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 96DA91D4BE662ADA68A5D23D334707D3 /* database.cpp */; };
 		BD902B1DF4FE0E24C4EF6F5C4BC113B9 /* fts_module.hpp in Headers */ = {isa = PBXBuildFile; fileRef = E49331EF31AC0A121037BC2B8B528FCD /* fts_module.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
 		BEC67B52B5421072B361BD0CC2D0611B /* handle_recyclable.hpp in Headers */ = {isa = PBXBuildFile; fileRef = ED6C2AF85526302E6BE759E6455C42D8 /* handle_recyclable.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -478,8 +481,10 @@
 		E8229DB9C8FF016E5EB6ED8ED5279A58 /* WCTDatabase+Core.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0AD87E780DA9CA1D9C0AF7D6C189F05A /* WCTDatabase+Core.mm */; };
 		E919CEBE7DD33109365D23D8526F83FA /* WCTError.h in Headers */ = {isa = PBXBuildFile; fileRef = 015EA43B40A19935EF067D2DA6AF830A /* WCTError.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EA2BE404814773793C16CBF41EB729D0 /* sqliterk_crypto.c in Sources */ = {isa = PBXBuildFile; fileRef = 5150AC047F74A76421268BC57E63B249 /* sqliterk_crypto.c */; };
+		EB734FBD11F36B4D1D8C5017F76B6E2B /* SQNetWork-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EC18595F5C303F3A0516C7D8E2246A16 /* SQNetWork-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EBC3CAE69EDDE0C5A0C74331D8C9DFF1 /* walker.c in Sources */ = {isa = PBXBuildFile; fileRef = 158CB4C28E78A861B29561BBA84C3B34 /* walker.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		EBE419A4E6470ECC64B92CA416BDB657 /* pager.c in Sources */ = {isa = PBXBuildFile; fileRef = 08C9A6255D394045F90471DF952909DE /* pager.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		EC6CA704BC9EC036C745E572500A49C9 /* SQLocalDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CA33D03CA215CB5A8A16913F485E47DD /* SQLocalDataManager.m */; };
 		EC87F8BF1D3960B8DF8E06C33DB3AA35 /* WCTIndexBInding.mm in Sources */ = {isa = PBXBuildFile; fileRef = A04F978BF648C1FE73C426C5176FFA01 /* WCTIndexBInding.mm */; };
 		ED78C3384D3A9CACD008DD4CAADE53E3 /* database_file.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ED2082DBC89A76D48FCBD89A55AA19FE /* database_file.cpp */; };
 		EDE80D8CE69A518CB5C3DC0878FA9BD5 /* WCTPropertyMacro.h in Headers */ = {isa = PBXBuildFile; fileRef = 5EFB2711694F61270D0E39C70E4786DB /* WCTPropertyMacro.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -605,14 +610,12 @@
 		01298F713CD6F400EF525AD816697352 /* WCTValue.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = WCTValue.mm; path = objc/WCDB/interface/core/WCTValue.mm; sourceTree = "<group>"; };
 		012F124A5EE919C0E0F4347042E4F814 /* WCTSelect.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = WCTSelect.mm; path = objc/WCDB/interface/chaincall/WCTSelect.mm; sourceTree = "<group>"; };
 		015EA43B40A19935EF067D2DA6AF830A /* WCTError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WCTError.h; path = objc/WCDB/interface/statictics/WCTError.h; sourceTree = "<group>"; };
-		01B605DF91A3C486CE5B7A930AA9320F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		02091EAE47C8027D78789FE0B968FA01 /* Pods-SQNetWork_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SQNetWork_Example.modulemap"; sourceTree = "<group>"; };
 		0233C69362AF874D1FE2D925812C9DC2 /* WCTInterface+ChainCall.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = "WCTInterface+ChainCall.mm"; path = "objc/WCDB/interface/chaincall/WCTInterface+ChainCall.mm"; sourceTree = "<group>"; };
 		02529829B2E1B67BD6671971B11D2F0B /* spin.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = spin.hpp; path = objc/WCDB/util/spin.hpp; sourceTree = "<group>"; };
 		033B7B88322BABA62DA29A8215A0453E /* WCTDatabase+Transaction.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = "WCTDatabase+Transaction.mm"; path = "objc/WCDB/interface/transaction/WCTDatabase+Transaction.mm"; sourceTree = "<group>"; };
 		03B34934217038C763C746BBB19AD59D /* WCTDatabase+Core.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "WCTDatabase+Core.h"; path = "objc/WCDB/interface/core/WCTDatabase+Core.h"; sourceTree = "<group>"; };
 		03CCC27791A4BA4B3F58CDE8FA1F9FFA /* os_unix.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = os_unix.c; path = src/os_unix.c; sourceTree = "<group>"; };
-		0454AB492F1BBD04EFA5D662C8BE0365 /* SQNetWork.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SQNetWork.modulemap; sourceTree = "<group>"; };
 		04BFC63FFD6DD85D10D6F4C7E35427D3 /* ticker.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = ticker.cpp; path = objc/WCDB/util/ticker.cpp; sourceTree = "<group>"; };
 		04FFEF9BEE05394D401EFBB25EFFF780 /* WCTInterface+Table.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = "WCTInterface+Table.mm"; path = "objc/WCDB/interface/table/WCTInterface+Table.mm"; sourceTree = "<group>"; };
 		05046585195BA024E7AEB8DB2642BE5B /* pragma.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = pragma.cpp; path = objc/WCDB/abstract/pragma.cpp; sourceTree = "<group>"; };
@@ -625,19 +628,22 @@
 		0645B1D95F3A41547C848C1670BB8F04 /* icu.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = icu.c; path = ext/icu/icu.c; sourceTree = "<group>"; };
 		067B22160BEE4192BC83995981BDAB93 /* AFNetworking.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AFNetworking.modulemap; sourceTree = "<group>"; };
 		06DD61BD1A4C2C7F6E23EB0E927F2338 /* statement_insert.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = statement_insert.hpp; path = objc/WCDB/abstract/statement_insert.hpp; sourceTree = "<group>"; };
+		07306A7A22531C6E007081DC /* SQNNetWokrManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SQNNetWokrManager.h; sourceTree = "<group>"; };
+		07306A7B22531C6E007081DC /* SQNNetWokrManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SQNNetWokrManager.m; sourceTree = "<group>"; };
+		07306A7E22531C79007081DC /* SQNNetWorkResponse.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SQNNetWorkResponse.h; sourceTree = "<group>"; };
+		07306A7F22531C79007081DC /* SQNNetWorkResponse.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SQNNetWorkResponse.m; sourceTree = "<group>"; };
+		07306A8222531C8E007081DC /* SQNNetWorkPingTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SQNNetWorkPingTool.h; sourceTree = "<group>"; };
+		07306A8322531C8E007081DC /* SQNNetWorkPingTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SQNNetWorkPingTool.m; sourceTree = "<group>"; };
+		07306A8622531CB0007081DC /* SQNNetWorkRequestConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SQNNetWorkRequestConfig.h; sourceTree = "<group>"; };
+		07306A8722531CB0007081DC /* SQNNetWorkRequestConfig.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SQNNetWorkRequestConfig.m; sourceTree = "<group>"; };
+		07306A8A22531CFE007081DC /* SQNNetWorkResponseProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SQNNetWorkResponseProtocol.h; sourceTree = "<group>"; };
+		07306A8D225338F6007081DC /* SQNNetWorkRequestProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SQNNetWorkRequestProtocol.h; sourceTree = "<group>"; };
+		07306A9022533D62007081DC /* SQNMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SQNMacro.h; sourceTree = "<group>"; };
+		07306A9222533EFD007081DC /* SQNNetWorkingDefines.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SQNNetWorkingDefines.h; sourceTree = "<group>"; };
+		07306A94225353BD007081DC /* SQNNetWorkBaseRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SQNNetWorkBaseRequest.h; sourceTree = "<group>"; };
+		07306A95225353BD007081DC /* SQNNetWorkBaseRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SQNNetWorkBaseRequest.m; sourceTree = "<group>"; };
+		07306A9922535F21007081DC /* SQNNetWorkResponseInterceptor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SQNNetWorkResponseInterceptor.h; sourceTree = "<group>"; };
 		074622F59B476E2FE9FADB2CB4E78496 /* vxworks.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = vxworks.h; path = src/vxworks.h; sourceTree = "<group>"; };
-		07CE3F2A22439B5000FA3E78 /* SQLocalDataManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SQLocalDataManager.h; sourceTree = "<group>"; };
-		07CE3F2B22439B5000FA3E78 /* SQLocalDataManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SQLocalDataManager.m; sourceTree = "<group>"; };
-		07CE3F3322439CDE00FA3E78 /* SQReqeustCache+WCTTableCoding.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SQReqeustCache+WCTTableCoding.h"; sourceTree = "<group>"; };
-		07CE3F3822439D2300FA3E78 /* SQNetWork.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SQNetWork.h; path = SQNetWork/Classes/SQNetWork.h; sourceTree = "<group>"; };
-		07CE3F3C22439F7800FA3E78 /* SQNetWorkConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SQNetWorkConfig.h; path = SQNetWork/Classes/Config/SQNetWorkConfig.h; sourceTree = "<group>"; };
-		07CE3F3D22439F7800FA3E78 /* SQNetWorkConfig.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = SQNetWorkConfig.m; path = SQNetWork/Classes/Config/SQNetWorkConfig.m; sourceTree = "<group>"; };
-		07CE3F402243A00000FA3E78 /* SQNetWorkPingTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SQNetWorkPingTool.h; path = SQNetWork/Classes/Tools/SQNetWorkPingTool.h; sourceTree = "<group>"; };
-		07CE3F412243A00000FA3E78 /* SQNetWorkPingTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = SQNetWorkPingTool.m; path = SQNetWork/Classes/Tools/SQNetWorkPingTool.m; sourceTree = "<group>"; };
-		07CE3F442243A0AE00FA3E78 /* SQNetWorkResponse.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SQNetWorkResponse.h; path = SQNetWork/Classes/Core/SQNetWorkResponse.h; sourceTree = "<group>"; };
-		07CE3F452243A0AE00FA3E78 /* SQNetWorkResponse.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = SQNetWorkResponse.m; path = SQNetWork/Classes/Core/SQNetWorkResponse.m; sourceTree = "<group>"; };
-		07CE3F482243A10C00FA3E78 /* SQNetProxy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SQNetProxy.h; path = SQNetWork/Classes/Core/SQNetProxy.h; sourceTree = "<group>"; };
-		07CE3F492243A10C00FA3E78 /* SQNetProxy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = SQNetProxy.m; path = SQNetWork/Classes/Core/SQNetProxy.m; sourceTree = "<group>"; };
 		08C9A6255D394045F90471DF952909DE /* pager.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = pager.c; path = src/pager.c; sourceTree = "<group>"; };
 		095CDE00322F04F139DD33E89396AB1E /* WCTCppAccessor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WCTCppAccessor.h; path = objc/WCDB/interface/orm/accessor/WCTCppAccessor.h; sourceTree = "<group>"; };
 		0996F7AE11D2AF5177E450DD14EEEDBA /* database_sql.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = database_sql.cpp; path = objc/WCDB/core/database_sql.cpp; sourceTree = "<group>"; };
@@ -670,6 +676,7 @@
 		15B4D7E90DF0DEF79B697C84AAEF1C69 /* NSData+WCTColumnCoding.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = "NSData+WCTColumnCoding.mm"; path = "objc/WCDB/interface/builtin/NSData+WCTColumnCoding.mm"; sourceTree = "<group>"; };
 		1689BAE44276D6A6E6B1DE729F4016B2 /* WCTSequence.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WCTSequence.h; path = objc/WCDB/interface/builtin/WCTSequence.h; sourceTree = "<group>"; };
 		16ED07572CCEE3E0AB3CDA088B9E22BA /* msvc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = msvc.h; path = src/msvc.h; sourceTree = "<group>"; };
+		171C3B6B4D3379BFDF134857879E136A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		1756CEBB6213D482A8D752DE7FB28DC4 /* mutex_unix.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = mutex_unix.c; path = src/mutex_unix.c; sourceTree = "<group>"; };
 		176104B0C696B80E437679EFBFAAB080 /* SQLiteRepairKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SQLiteRepairKit.h; path = repair/SQLiteRepairKit.h; sourceTree = "<group>"; };
 		1768D9A6FF8DC7758ECE5A78A5EB685A /* statement_delete.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = statement_delete.cpp; path = objc/WCDB/abstract/statement_delete.cpp; sourceTree = "<group>"; };
@@ -697,11 +704,11 @@
 		1FCE0AD3C60A99E331C790AF7C3EB0B3 /* WCTStatistics+Compatible.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "WCTStatistics+Compatible.h"; path = "objc/WCDB/interface/compatible/WCTStatistics+Compatible.h"; sourceTree = "<group>"; };
 		22A9F946BE9177C9CD22571CD563B0F0 /* SQLiteRepairKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SQLiteRepairKit.modulemap; sourceTree = "<group>"; };
 		22C1448DD583B997C38521F48242540C /* sqliterk_column.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = sqliterk_column.h; path = repair/sqliterk_column.h; sourceTree = "<group>"; };
-		22EC7E08141F8DF5D3142B08D865CC30 /* SQNetWork-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SQNetWork-umbrella.h"; sourceTree = "<group>"; };
 		23AA09D0CCEE73A94125B62A915E559B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		23F1F22B2D19CD9BF6120BCE23FDC659 /* fts3_tokenizer1.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = fts3_tokenizer1.c; path = ext/fts3/fts3_tokenizer1.c; sourceTree = "<group>"; };
 		24039676A58D35BC7F604E621BACAD49 /* Pods-SQNetWork_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SQNetWork_Example-frameworks.sh"; sourceTree = "<group>"; };
 		2440255DB9496A731094825E85D37197 /* WCTDelete+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "WCTDelete+Private.h"; path = "objc/WCDB/interface/chaincall/WCTDelete+Private.h"; sourceTree = "<group>"; };
+		2447F464FE474C774857A7FD1F7413B9 /* SQNetWork.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SQNetWork.h; path = SQNetWork/Classes/SQNetWork.h; sourceTree = "<group>"; };
 		24C7E5A38093D58194A20EC2F612C0B1 /* WCDB-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WCDB-dummy.m"; sourceTree = "<group>"; };
 		250B8771534BF4BB057F6D1459F9A95F /* fts_modules.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = fts_modules.cpp; path = objc/WCDB/abstract/fts_modules.cpp; sourceTree = "<group>"; };
 		256F8308A80E9F2242B95DC9C71D6AE8 /* status.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = status.c; path = src/status.c; sourceTree = "<group>"; };
@@ -734,7 +741,6 @@
 		2FBD17ECA418C685F31EADE385B1A328 /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkReachabilityManager.h; path = AFNetworking/AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
 		301238CDADDE5E4712B68B43650A56AD /* WCTPropertyBase.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = WCTPropertyBase.mm; path = objc/WCDB/interface/orm/coding/WCTPropertyBase.mm; sourceTree = "<group>"; };
 		301D7ABEBCAF424891B7512B00C6E5CF /* WCTCore.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = WCTCore.mm; path = objc/WCDB/interface/core/WCTCore.mm; sourceTree = "<group>"; };
-		30607FCE165BFFD296926224412C954C /* SQNetWork-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SQNetWork-Info.plist"; sourceTree = "<group>"; };
 		31FD3C83C534596FB4C69A642697769A /* where.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = where.c; path = src/where.c; sourceTree = "<group>"; };
 		3235CF583BBFEEC1F9F43F6D5FBF9B08 /* WCTStatement.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WCTStatement.h; path = objc/WCDB/interface/core/WCTStatement.h; sourceTree = "<group>"; };
 		3312688B4CF3BC2374CE9116B937EC8E /* column.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = column.cpp; path = objc/WCDB/abstract/column.cpp; sourceTree = "<group>"; };
@@ -772,6 +778,7 @@
 		3D00C62FF6EF5DFC79E3EC3D8A24523B /* loadext.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = loadext.c; path = src/loadext.c; sourceTree = "<group>"; };
 		3F0AFFE590E42FB17FDE39A4E078ADE6 /* auth.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = auth.c; path = src/auth.c; sourceTree = "<group>"; };
 		3F3A86D0851E58EEF40B3DFC8CFC8C93 /* mem3.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = mem3.c; path = src/mem3.c; sourceTree = "<group>"; };
+		4031803CBB5D92C54D553DA9E21DD9D1 /* SQReqeustCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SQReqeustCache.h; sourceTree = "<group>"; };
 		40DB137C961839524F0B4746C6A44D39 /* statement_drop_table.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = statement_drop_table.cpp; path = objc/WCDB/abstract/statement_drop_table.cpp; sourceTree = "<group>"; };
 		40E328AAFA6A4BC0A1069B09862C9903 /* mutex.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mutex.h; path = src/mutex.h; sourceTree = "<group>"; };
 		41CAAC798E559927E67BD120D99C2AA0 /* WCTDatabase+Compatible.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "WCTDatabase+Compatible.h"; path = "objc/WCDB/interface/compatible/WCTDatabase+Compatible.h"; sourceTree = "<group>"; };
@@ -800,12 +807,10 @@
 		4FADE7D19D2CDF5B544FC485AC4705E0 /* WCTDatabase+FTS.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = "WCTDatabase+FTS.mm"; path = "objc/WCDB/interface/fts/WCTDatabase+FTS.mm"; sourceTree = "<group>"; };
 		506E7728741735C652549EE369130EA7 /* statement_rollback.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = statement_rollback.hpp; path = objc/WCDB/abstract/statement_rollback.hpp; sourceTree = "<group>"; };
 		5150AC047F74A76421268BC57E63B249 /* sqliterk_crypto.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = sqliterk_crypto.c; path = repair/sqliterk_crypto.c; sourceTree = "<group>"; };
-		51B8AC3C80B80F039764287BBBD94838 /* SQReqeustCache.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; path = SQReqeustCache.mm; sourceTree = "<group>"; };
 		51E3E74A115A515D5F4E0E67A1F365FE /* WCTInterface+Core.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = "WCTInterface+Core.mm"; path = "objc/WCDB/interface/core/WCTInterface+Core.mm"; sourceTree = "<group>"; };
 		52BE46D61F98301AC1764BD3B58F5B56 /* WCTSelect.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WCTSelect.h; path = objc/WCDB/interface/chaincall/WCTSelect.h; sourceTree = "<group>"; };
 		52CB1DA51D26FF0E9149CFA5810644C5 /* sqliterk_btree.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = sqliterk_btree.c; path = repair/sqliterk_btree.c; sourceTree = "<group>"; };
 		53178701390A83752ADE0B9E2B5629C7 /* hash.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = hash.c; path = src/hash.c; sourceTree = "<group>"; };
-		54820ACCA745B9082BE519C2B0329053 /* SQNetWork-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SQNetWork-dummy.m"; sourceTree = "<group>"; };
 		54C7C9CE973C12723E6B0C36426514EC /* sqliterk_util.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = sqliterk_util.h; path = repair/sqliterk_util.h; sourceTree = "<group>"; };
 		54E4B80FDC121B719A84AF35526E8E86 /* utf.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = utf.c; path = src/utf.c; sourceTree = "<group>"; };
 		551D2F53C58F4FF5FFE052050C8EC57F /* WCTStatistics+Compatible.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = "WCTStatistics+Compatible.mm"; path = "objc/WCDB/interface/compatible/WCTStatistics+Compatible.mm"; sourceTree = "<group>"; };
@@ -819,14 +824,12 @@
 		5B61EB6C8BE1ADB6EDCAC1B2B7450DF6 /* os_wcdb.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = os_wcdb.h; path = src/os_wcdb.h; sourceTree = "<group>"; };
 		5BD41681C03EFC5377D27D81AE2DD827 /* WCTUpdate.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = WCTUpdate.mm; path = objc/WCDB/interface/chaincall/WCTUpdate.mm; sourceTree = "<group>"; };
 		5BFF6A262B902DB53AC63EC8FFD35850 /* bitvec.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = bitvec.c; path = src/bitvec.c; sourceTree = "<group>"; };
-		5C2C64AEA5D3E08F392C3191ECCF0D6C /* SQNetWorkAgent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SQNetWorkAgent.m; sourceTree = "<group>"; };
 		5C474B99BD4611D96B23FA00C703AFE0 /* Pods-SQNetWork_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SQNetWork_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		5D3EF5CA954CC68E19AB06334BE58574 /* NSNumber+WCTColumnCoding.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = "NSNumber+WCTColumnCoding.mm"; path = "objc/WCDB/interface/builtin/NSNumber+WCTColumnCoding.mm"; sourceTree = "<group>"; };
 		5ECC157151C76FC48977F040B3EDC13C /* handle.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = handle.cpp; path = objc/WCDB/abstract/handle.cpp; sourceTree = "<group>"; };
 		5EFB2711694F61270D0E39C70E4786DB /* WCTPropertyMacro.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WCTPropertyMacro.h; path = objc/WCDB/interface/orm/macro/WCTPropertyMacro.h; sourceTree = "<group>"; };
 		5F2F1122AE82273951E562559036CE71 /* Pods_SQNetWork_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SQNetWork_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F70F7AED1485467FB9D325DBD3A5674 /* Pods-SQNetWork_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SQNetWork_Tests-dummy.m"; sourceTree = "<group>"; };
-		600AACE5F6644519CBEA568C2D198A60 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		6024EA0AB44FBFC548EEFE2563CA8400 /* AFNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AFNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		609425B77F70B8E6B5C192AC1E9008A9 /* btree.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = btree.c; path = src/btree.c; sourceTree = "<group>"; };
 		609D4485BC9C6C72CE51B9971CFF3F52 /* WCTMaster+WCTTableCoding.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "WCTMaster+WCTTableCoding.h"; path = "objc/WCDB/interface/builtin/WCTMaster+WCTTableCoding.h"; sourceTree = "<group>"; };
@@ -835,6 +838,7 @@
 		622EEDDF98E8CEF41F1AC07E476ED1E6 /* column_index.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = column_index.cpp; path = objc/WCDB/abstract/column_index.cpp; sourceTree = "<group>"; };
 		633AF75A2973887F4D4AB086458666C0 /* printf.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = printf.c; path = src/printf.c; sourceTree = "<group>"; };
 		639B8ACDA561150D9672293D58DF07AC /* WCTExpr.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = WCTExpr.mm; path = objc/WCDB/interface/orm/coding/WCTExpr.mm; sourceTree = "<group>"; };
+		64471E9726FDC38DBD278410CDBF7835 /* SQNetWork-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SQNetWork-prefix.pch"; sourceTree = "<group>"; };
 		644B3D34D0C5CD58426C34049A9070FE /* NSString+WCTColumnCoding.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = "NSString+WCTColumnCoding.mm"; path = "objc/WCDB/interface/builtin/NSString+WCTColumnCoding.mm"; sourceTree = "<group>"; };
 		64F785300CF330533F9846BD36399FFB /* clause_join.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = clause_join.hpp; path = objc/WCDB/abstract/clause_join.hpp; sourceTree = "<group>"; };
 		65264ED42C45C097114E95DDD2AE35E8 /* WCTValue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WCTValue.h; path = objc/WCDB/interface/core/WCTValue.h; sourceTree = "<group>"; };
@@ -849,8 +853,8 @@
 		696EF063F021AAD05903BEA8C4BC30F5 /* sqliterk_column.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = sqliterk_column.c; path = repair/sqliterk_column.c; sourceTree = "<group>"; };
 		6987CCA15E08C0B59106B36B5DDCBA9F /* WCDB.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WCDB.h; path = objc/WCDB/WCDB.h; sourceTree = "<group>"; };
 		69F39A8E0892CB92F05BC486DDD45206 /* NSObject+WCTColumnCoding.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = "NSObject+WCTColumnCoding.mm"; path = "objc/WCDB/interface/builtin/NSObject+WCTColumnCoding.mm"; sourceTree = "<group>"; };
+		6A09AB3B36E2E92DAEC6D58137E444FC /* SQNetWork.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SQNetWork.modulemap; sourceTree = "<group>"; };
 		6AD1E60C7494848D67595EB91436C225 /* WCTTable+Database.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "WCTTable+Database.h"; path = "objc/WCDB/interface/table/WCTTable+Database.h"; sourceTree = "<group>"; };
-		6BF232729837C3ABB09DDAFBE722C0DA /* SQReqeustCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SQReqeustCache.h; sourceTree = "<group>"; };
 		6BFF4581DFB8DFB26CDD41111555A06D /* AFAutoPurgingImageCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFAutoPurgingImageCache.h; path = "UIKit+AFNetworking/AFAutoPurgingImageCache.h"; sourceTree = "<group>"; };
 		6D0ADF9B77A5631658CC04679F03802B /* UIRefreshControl+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIRefreshControl+AFNetworking.m"; path = "UIKit+AFNetworking/UIRefreshControl+AFNetworking.m"; sourceTree = "<group>"; };
 		6D1C5CFA752BC8F0EE07D88E1C630CD4 /* malloc.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = malloc.c; path = src/malloc.c; sourceTree = "<group>"; };
@@ -870,7 +874,6 @@
 		73BD793D3EC550235A228C93085649DA /* WCTTokenizer+WCDB.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "WCTTokenizer+WCDB.h"; path = "objc/WCDB/interface/fts/WCTTokenizer+WCDB.h"; sourceTree = "<group>"; };
 		73DD03C65FE080D0D4993F492F211177 /* fts3_hash.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = fts3_hash.h; path = ext/fts3/fts3_hash.h; sourceTree = "<group>"; };
 		753F3BE381792593AAD15CEE862F2CB9 /* statement_create_virtual_table.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = statement_create_virtual_table.cpp; path = objc/WCDB/abstract/statement_create_virtual_table.cpp; sourceTree = "<group>"; };
-		771DC135031B1243E7166DADAF8EBEFC /* SQNetWorkAgent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SQNetWorkAgent.h; sourceTree = "<group>"; };
 		77FA6F24DCFE7DD5F0BFA8070B4768B6 /* AFCompatibilityMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFCompatibilityMacros.h; path = AFNetworking/AFCompatibilityMacros.h; sourceTree = "<group>"; };
 		7A51B407136C8C6A844324131CDF7086 /* statement_attach.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = statement_attach.cpp; path = objc/WCDB/abstract/statement_attach.cpp; sourceTree = "<group>"; };
 		7AE60901159BD884FFD892F020A4CB98 /* UIActivityIndicatorView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIActivityIndicatorView+AFNetworking.m"; path = "UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.m"; sourceTree = "<group>"; };
@@ -900,7 +903,6 @@
 		8629A9107EE7D0E38D16BD73E393652B /* WCTAnyProperty.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WCTAnyProperty.h; path = objc/WCDB/interface/orm/coding/WCTAnyProperty.h; sourceTree = "<group>"; };
 		86EE94F806467EF81566C3BF56BDE775 /* sqliterk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = sqliterk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8703FF21F56E461A689E8D676870459A /* UIButton+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+AFNetworking.h"; path = "UIKit+AFNetworking/UIButton+AFNetworking.h"; sourceTree = "<group>"; };
-		876B6A784C7B7D907085CC2F77FE6596 /* SQNetWork.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SQNetWork.xcconfig; sourceTree = "<group>"; };
 		877BEACF6AA861C383B10F502142D67B /* describable.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = describable.hpp; path = objc/WCDB/abstract/describable.hpp; sourceTree = "<group>"; };
 		87A425AF620D5CEE9C3F67865A69F764 /* fts3_unicode2.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = fts3_unicode2.c; path = ext/fts3/fts3_unicode2.c; sourceTree = "<group>"; };
 		87E5584CBE47034973B1A63A99D3AEF2 /* AFNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AFNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -919,6 +921,7 @@
 		8E8438993A5FB0106AB00D2A4395DC1B /* WCTError+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "WCTError+Private.h"; path = "objc/WCDB/interface/statictics/WCTError+Private.h"; sourceTree = "<group>"; };
 		8ECB475EE37A2E1893F932201D53C73E /* os_common.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = os_common.h; path = src/os_common.h; sourceTree = "<group>"; };
 		8EFDE0D82CB041E39F25066EAEDEB115 /* utility.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = utility.hpp; path = objc/WCDB/util/utility.hpp; sourceTree = "<group>"; };
+		8F0E785E3CD4245CDBF0DFF61B1C2901 /* SQReqeustCache+WCTTableCoding.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SQReqeustCache+WCTTableCoding.h"; sourceTree = "<group>"; };
 		8F3A2DF50B2632F7B0D3EA3C5D103B6E /* global.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = global.c; path = src/global.c; sourceTree = "<group>"; };
 		8F5AF4BF3D5907E874FA83ED91703A41 /* WCDBOptimizedSQLCipher-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "WCDBOptimizedSQLCipher-Info.plist"; sourceTree = "<group>"; };
 		90576D954C14FBD7761EB7DB52A19DE5 /* rtree.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = rtree.c; path = ext/rtree/rtree.c; sourceTree = "<group>"; };
@@ -976,6 +979,7 @@
 		AB6C67C1BF020CB67C1580DB591FC4E0 /* config.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = config.cpp; path = objc/WCDB/core/config.cpp; sourceTree = "<group>"; };
 		AB85558424EB52054D6F1953057A5DD5 /* WCTBinding.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WCTBinding.h; path = objc/WCDB/interface/orm/binding/WCTBinding.h; sourceTree = "<group>"; };
 		ABF6683B37C986C1EFAF284E4B025797 /* statement_savepoint.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = statement_savepoint.hpp; path = objc/WCDB/abstract/statement_savepoint.hpp; sourceTree = "<group>"; };
+		AC3636A7D58B199137770CE8EDC282C1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		AC370D9E7F460F5139CC7FF5D0E555F8 /* database_repair_kit.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = database_repair_kit.cpp; path = objc/WCDB/core/database_repair_kit.cpp; sourceTree = "<group>"; };
 		AC4AC72F7F318F079C0E7AD3E8B28995 /* WCTSelectBase+WCTExpr.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "WCTSelectBase+WCTExpr.h"; path = "objc/WCDB/interface/orm/coding/WCTSelectBase+WCTExpr.h"; sourceTree = "<group>"; };
 		AD00B006024789AD066B745A7A6690DC /* WCTMaster.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WCTMaster.h; path = objc/WCDB/interface/builtin/WCTMaster.h; sourceTree = "<group>"; };
@@ -1017,6 +1021,7 @@
 		BDDED6C2120487D9D8144D90768F64E3 /* date.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = date.c; path = src/date.c; sourceTree = "<group>"; };
 		BEA1D974094426D5416B0AB26F0083D3 /* pragma.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = pragma.hpp; path = objc/WCDB/abstract/pragma.hpp; sourceTree = "<group>"; };
 		BEB593A97B977BB93372668F464D2759 /* literal_value.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = literal_value.hpp; path = objc/WCDB/abstract/literal_value.hpp; sourceTree = "<group>"; };
+		BF01FD542DC04CB3942AAF5D354393E3 /* SQNetWork.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = SQNetWork.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		C110D343E769FAE0BDFB6ACAA7E11589 /* WCTORM.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WCTORM.h; path = objc/WCDB/interface/orm/WCTORM.h; sourceTree = "<group>"; };
 		C11D0E45C830E797CAFDBF2187354030 /* mem1.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = mem1.c; path = src/mem1.c; sourceTree = "<group>"; };
 		C25EF8A2DD5E109CDD6C98390FA00AF0 /* concurrent_list.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = concurrent_list.hpp; path = objc/WCDB/util/concurrent_list.hpp; sourceTree = "<group>"; };
@@ -1040,6 +1045,7 @@
 		C8B052511F0FC5FDD4F9098F74F2B13E /* WCTSelectBase+NoARC.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = "WCTSelectBase+NoARC.mm"; path = "objc/WCDB/interface/chaincall/WCTSelectBase+NoARC.mm"; sourceTree = "<group>"; };
 		C9BEAFA4DD755E2C68FAB28C7A2E142E /* insert.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = insert.c; path = src/insert.c; sourceTree = "<group>"; };
 		CA12AFDAAF0B12B7B271FE5E5D0DACB6 /* statement_savepoint.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = statement_savepoint.cpp; path = objc/WCDB/abstract/statement_savepoint.cpp; sourceTree = "<group>"; };
+		CA33D03CA215CB5A8A16913F485E47DD /* SQLocalDataManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SQLocalDataManager.m; sourceTree = "<group>"; };
 		CAEE6FCD4BF1B59BF1455A352F4AB60B /* WCDB-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "WCDB-Info.plist"; sourceTree = "<group>"; };
 		CB4BC74898CBEF7A3B09F337373053B1 /* WCTInterface+Convenient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "WCTInterface+Convenient.h"; path = "objc/WCDB/interface/convenient/WCTInterface+Convenient.h"; sourceTree = "<group>"; };
 		CD9A155B299CA8AD6E86E3F1858698B6 /* handle_pool.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = handle_pool.cpp; path = objc/WCDB/core/handle_pool.cpp; sourceTree = "<group>"; };
@@ -1068,21 +1074,22 @@
 		D8F75AA4FEDD19696946A3EA42B2F1BF /* subquery.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = subquery.cpp; path = objc/WCDB/abstract/subquery.cpp; sourceTree = "<group>"; };
 		D9160E25477DDCD40553A4CFB2D497D3 /* database_transaction.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = database_transaction.cpp; path = objc/WCDB/core/database_transaction.cpp; sourceTree = "<group>"; };
 		D9356830A45F0410AD6E109033A10BBE /* hwtime.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = hwtime.h; path = src/hwtime.h; sourceTree = "<group>"; };
+		DA387249F8085856B06A2B215EC3499F /* SQNetWork-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SQNetWork-Info.plist"; sourceTree = "<group>"; };
 		DA4653C6AFE39A2C47AAE5BCAA2B982F /* prepare.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = prepare.c; path = src/prepare.c; sourceTree = "<group>"; };
-		DAA24BDB1C3556CE5D7836BDCF6D10B2 /* SQNetWork.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = SQNetWork.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		DAC008E5E3553E100B829684B1E7A0E5 /* handle_pool.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = handle_pool.hpp; path = objc/WCDB/core/handle_pool.hpp; sourceTree = "<group>"; };
 		DAEA5EC79D632AF215DDF94FD62AB2B5 /* path.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = path.cpp; path = objc/WCDB/util/path.cpp; sourceTree = "<group>"; };
 		DCD1FD9BD0B06AC58AC6B136D13B3FDA /* complete.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = complete.c; path = src/complete.c; sourceTree = "<group>"; };
 		DD0033826D22DB4F732024EC2E9923B1 /* Pods_SQNetWork_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SQNetWork_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD1B9610DEA381B0A2669FE68231D22D /* SQReqeustCache.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; path = SQReqeustCache.mm; sourceTree = "<group>"; };
 		DE1C4E1F5742019E978C2FF342592E13 /* os_setup.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = os_setup.h; path = src/os_setup.h; sourceTree = "<group>"; };
 		DE1E3BE4D124AD33449271455B6C6388 /* macro.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = macro.hpp; path = objc/WCDB/util/macro.hpp; sourceTree = "<group>"; };
 		DE533A64404D8AF0C4C3833FB004D250 /* table.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = table.c; path = src/table.c; sourceTree = "<group>"; };
+		DE5562F7E83F9D5A07468628A2A48274 /* SQNetWork.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SQNetWork.xcconfig; sourceTree = "<group>"; };
 		DE6AB80F384548A4351F4B1269D43D0C /* WCTConstraintBinding.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = WCTConstraintBinding.mm; path = objc/WCDB/interface/orm/binding/WCTConstraintBinding.mm; sourceTree = "<group>"; };
 		DFBC0B818164A73C408BE04AE5BB1DC0 /* ctime.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = ctime.c; path = src/ctime.c; sourceTree = "<group>"; };
 		DFCC1F6266C3ABD8E94DC8A63CA9917B /* fts3_tokenizer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = fts3_tokenizer.h; path = ext/fts3/fts3_tokenizer.h; sourceTree = "<group>"; };
 		E0603905F5B186E315D6C0E4E8D568D0 /* sqliterk.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = sqliterk.c; path = repair/sqliterk.c; sourceTree = "<group>"; };
 		E16C0D160D7019AE1114E5A2786044C5 /* rwlock.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = rwlock.cpp; path = objc/WCDB/util/rwlock.cpp; sourceTree = "<group>"; };
-		E1D9D761DD215E2629B1EC503B8D6FA9 /* SQNetWork-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SQNetWork-prefix.pch"; sourceTree = "<group>"; };
 		E214FD86539D48C9DB41D4892D8C9119 /* UIKit+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIKit+AFNetworking.h"; path = "UIKit+AFNetworking/UIKit+AFNetworking.h"; sourceTree = "<group>"; };
 		E2670F2F44BDA46CE8BCA20B8856649E /* path.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = path.hpp; path = objc/WCDB/util/path.hpp; sourceTree = "<group>"; };
 		E274CD45D0089EC6818E431104BF40F5 /* sqliterk_pager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = sqliterk_pager.h; path = repair/sqliterk_pager.h; sourceTree = "<group>"; };
@@ -1107,6 +1114,8 @@
 		EB89A5BE4E95C6CE981CCBB064DE14F8 /* parse.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = parse.c; sourceTree = "<group>"; };
 		EBA15E25EEFA55A21CE974FFA2DF2412 /* sqliterk_os.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = sqliterk_os.c; path = repair/sqliterk_os.c; sourceTree = "<group>"; };
 		EBE19AE51C786614CD99956F1A078FF2 /* WCTSelectBase+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "WCTSelectBase+Private.h"; path = "objc/WCDB/interface/chaincall/WCTSelectBase+Private.h"; sourceTree = "<group>"; };
+		EC18595F5C303F3A0516C7D8E2246A16 /* SQNetWork-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SQNetWork-umbrella.h"; sourceTree = "<group>"; };
+		EC614DB81AE4FAEDBE65E7518F63BA69 /* SQLocalDataManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SQLocalDataManager.h; sourceTree = "<group>"; };
 		ED0D3C446FC9193D8D5B8BFCAEBF667A /* WCTTable+ChainCall.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = "WCTTable+ChainCall.mm"; path = "objc/WCDB/interface/chaincall/WCTTable+ChainCall.mm"; sourceTree = "<group>"; };
 		ED2082DBC89A76D48FCBD89A55AA19FE /* database_file.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = database_file.cpp; path = objc/WCDB/core/database_file.cpp; sourceTree = "<group>"; };
 		ED6C2AF85526302E6BE759E6455C42D8 /* handle_recyclable.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = handle_recyclable.hpp; path = objc/WCDB/core/handle_recyclable.hpp; sourceTree = "<group>"; };
@@ -1142,6 +1151,7 @@
 		FBFC32786FE86E686690E2406B75497C /* WCTChainCall+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "WCTChainCall+Private.h"; path = "objc/WCDB/interface/chaincall/WCTChainCall+Private.h"; sourceTree = "<group>"; };
 		FCBFC328E7CEE94F8E5973DC16872D31 /* statement_create_table.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = statement_create_table.cpp; path = objc/WCDB/abstract/statement_create_table.cpp; sourceTree = "<group>"; };
 		FCDEBB24E5E41A1715CBC718ADB4CBED /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLResponseSerialization.h; path = AFNetworking/AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		FEA1DD65294F6CBFF2232694BC406EBC /* SQNetWork-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SQNetWork-dummy.m"; sourceTree = "<group>"; };
 		FEAD15FD83E6A78812575ADED0F538C7 /* statement_select.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = statement_select.cpp; path = objc/WCDB/abstract/statement_select.cpp; sourceTree = "<group>"; };
 		FEDEBC1829CDD4EAC375E19680C4C047 /* vdbeapi.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = vdbeapi.c; path = src/vdbeapi.c; sourceTree = "<group>"; };
 		FEFF78C92ADED81C949D2361BECF992F /* AFURLSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLSessionManager.h; path = AFNetworking/AFURLSessionManager.h; sourceTree = "<group>"; };
@@ -1222,14 +1232,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		078647A205043A2FC8D8EEDBFD28C311 /* Pod */ = {
+		07306A8C22531D0A007081DC /* Protocol */ = {
 			isa = PBXGroup;
 			children = (
-				600AACE5F6644519CBEA568C2D198A60 /* LICENSE */,
-				01B605DF91A3C486CE5B7A930AA9320F /* README.md */,
-				DAA24BDB1C3556CE5D7836BDCF6D10B2 /* SQNetWork.podspec */,
+				07306A8A22531CFE007081DC /* SQNNetWorkResponseProtocol.h */,
+				07306A9922535F21007081DC /* SQNNetWorkResponseInterceptor.h */,
+				07306A8D225338F6007081DC /* SQNNetWorkRequestProtocol.h */,
 			);
-			name = Pod;
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		0D507C07C8006A9A9DC29D71757A0684 /* Cache */ = {
+			isa = PBXGroup;
+			children = (
+				EC614DB81AE4FAEDBE65E7518F63BA69 /* SQLocalDataManager.h */,
+				CA33D03CA215CB5A8A16913F485E47DD /* SQLocalDataManager.m */,
+				4031803CBB5D92C54D553DA9E21DD9D1 /* SQReqeustCache.h */,
+				DD1B9610DEA381B0A2669FE68231D22D /* SQReqeustCache.mm */,
+				8F0E785E3CD4245CDBF0DFF61B1C2901 /* SQReqeustCache+WCTTableCoding.h */,
+			);
+			name = Cache;
+			path = SQNetWork/Classes/Cache;
 			sourceTree = "<group>";
 		};
 		0D807E21B7C4B93C062752CBAD2DB3DB /* Products */ = {
@@ -1399,6 +1422,20 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		1CEB2F3848FBB3D2F72A04DA1F626BA6 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6A09AB3B36E2E92DAEC6D58137E444FC /* SQNetWork.modulemap */,
+				DE5562F7E83F9D5A07468628A2A48274 /* SQNetWork.xcconfig */,
+				FEA1DD65294F6CBFF2232694BC406EBC /* SQNetWork-dummy.m */,
+				DA387249F8085856B06A2B215EC3499F /* SQNetWork-Info.plist */,
+				64471E9726FDC38DBD278410CDBF7835 /* SQNetWork-prefix.pch */,
+				EC18595F5C303F3A0516C7D8E2246A16 /* SQNetWork-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/SQNetWork";
+			sourceTree = "<group>";
+		};
 		25D44140A34FF5D2F16F40E28F24EAF9 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -1470,19 +1507,6 @@
 			path = AFNetworking;
 			sourceTree = "<group>";
 		};
-		511D4E23EE8032E685744CBA48145468 /* Cache */ = {
-			isa = PBXGroup;
-			children = (
-				6BF232729837C3ABB09DDAFBE722C0DA /* SQReqeustCache.h */,
-				51B8AC3C80B80F039764287BBBD94838 /* SQReqeustCache.mm */,
-				07CE3F3322439CDE00FA3E78 /* SQReqeustCache+WCTTableCoding.h */,
-				07CE3F2A22439B5000FA3E78 /* SQLocalDataManager.h */,
-				07CE3F2B22439B5000FA3E78 /* SQLocalDataManager.m */,
-			);
-			name = Cache;
-			path = SQNetWork/Classes/Cache;
-			sourceTree = "<group>";
-		};
 		5767DED8EEEDD3CAFBA414B4A75E0C85 /* SQLiteRepairKit */ = {
 			isa = PBXGroup;
 			children = (
@@ -1544,14 +1568,6 @@
 			name = Serialization;
 			sourceTree = "<group>";
 		};
-		738F7C23C116F03220C0595E431CA698 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				8F4ADF8B8128C875A32432E0DCFBE92F /* SQNetWork */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
 		7E50EB697CE5A50A0A7C511B0D3164ED /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -1563,25 +1579,24 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		8F4ADF8B8128C875A32432E0DCFBE92F /* SQNetWork */ = {
+		7FD183387A5F33A987F821238C4E969A /* Tools */ = {
 			isa = PBXGroup;
 			children = (
-				EA6C9AEEACE55A37A56F0DFF091DDE14 /* Agent */,
-				511D4E23EE8032E685744CBA48145468 /* Cache */,
-				078647A205043A2FC8D8EEDBFD28C311 /* Pod */,
-				B6C2FC146520FF253056FD8565C9465E /* Support Files */,
-				07CE3F3822439D2300FA3E78 /* SQNetWork.h */,
-				07CE3F3C22439F7800FA3E78 /* SQNetWorkConfig.h */,
-				07CE3F3D22439F7800FA3E78 /* SQNetWorkConfig.m */,
-				07CE3F402243A00000FA3E78 /* SQNetWorkPingTool.h */,
-				07CE3F412243A00000FA3E78 /* SQNetWorkPingTool.m */,
-				07CE3F442243A0AE00FA3E78 /* SQNetWorkResponse.h */,
-				07CE3F452243A0AE00FA3E78 /* SQNetWorkResponse.m */,
-				07CE3F482243A10C00FA3E78 /* SQNetProxy.h */,
-				07CE3F492243A10C00FA3E78 /* SQNetProxy.m */,
+				07306A8222531C8E007081DC /* SQNNetWorkPingTool.h */,
+				07306A8322531C8E007081DC /* SQNNetWorkPingTool.m */,
 			);
-			name = SQNetWork;
-			path = ../..;
+			name = Tools;
+			path = SQNetWork/Classes/Tools;
+			sourceTree = "<group>";
+		};
+		93C5602D9276E09DA68486316084EAB5 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				AC3636A7D58B199137770CE8EDC282C1 /* LICENSE */,
+				171C3B6B4D3379BFDF134857879E136A /* README.md */,
+				BF01FD542DC04CB3942AAF5D354393E3 /* SQNetWork.podspec */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		9F482ABA29F14B024D586DB1C7772F38 /* Frameworks */ = {
@@ -1610,6 +1625,22 @@
 			path = "../Target Support Files/WCDB";
 			sourceTree = "<group>";
 		};
+		B554EDDB46E4F6E22E721E7B137B7FF1 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				07306A7A22531C6E007081DC /* SQNNetWokrManager.h */,
+				07306A7B22531C6E007081DC /* SQNNetWokrManager.m */,
+				07306A7E22531C79007081DC /* SQNNetWorkResponse.h */,
+				07306A7F22531C79007081DC /* SQNNetWorkResponse.m */,
+				07306A94225353BD007081DC /* SQNNetWorkBaseRequest.h */,
+				07306A95225353BD007081DC /* SQNNetWorkBaseRequest.m */,
+				07306A8622531CB0007081DC /* SQNNetWorkRequestConfig.h */,
+				07306A8722531CB0007081DC /* SQNNetWorkRequestConfig.m */,
+			);
+			name = Core;
+			path = SQNetWork/Classes/Core;
+			sourceTree = "<group>";
+		};
 		B55F5AE0A27D86F91DCD2307C1467251 /* Pods-SQNetWork_Example */ = {
 			isa = PBXGroup;
 			children = (
@@ -1625,20 +1656,6 @@
 			);
 			name = "Pods-SQNetWork_Example";
 			path = "Target Support Files/Pods-SQNetWork_Example";
-			sourceTree = "<group>";
-		};
-		B6C2FC146520FF253056FD8565C9465E /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				0454AB492F1BBD04EFA5D662C8BE0365 /* SQNetWork.modulemap */,
-				876B6A784C7B7D907085CC2F77FE6596 /* SQNetWork.xcconfig */,
-				54820ACCA745B9082BE519C2B0329053 /* SQNetWork-dummy.m */,
-				30607FCE165BFFD296926224412C954C /* SQNetWork-Info.plist */,
-				E1D9D761DD215E2629B1EC503B8D6FA9 /* SQNetWork-prefix.pch */,
-				22EC7E08141F8DF5D3142B08D865CC30 /* SQNetWork-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/SQNetWork";
 			sourceTree = "<group>";
 		};
 		B6FCDAE27AA75DFC65946EABAC5AB591 /* WCDB */ = {
@@ -1946,7 +1963,7 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				738F7C23C116F03220C0595E431CA698 /* Development Pods */,
+				E241F7BC559FD3CCA74EA812B9888851 /* Development Pods */,
 				9F482ABA29F14B024D586DB1C7772F38 /* Frameworks */,
 				7E50EB697CE5A50A0A7C511B0D3164ED /* Pods */,
 				0D807E21B7C4B93C062752CBAD2DB3DB /* Products */,
@@ -1982,14 +1999,29 @@
 			path = "../Target Support Files/WCDBOptimizedSQLCipher";
 			sourceTree = "<group>";
 		};
-		EA6C9AEEACE55A37A56F0DFF091DDE14 /* Agent */ = {
+		E241F7BC559FD3CCA74EA812B9888851 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				771DC135031B1243E7166DADAF8EBEFC /* SQNetWorkAgent.h */,
-				5C2C64AEA5D3E08F392C3191ECCF0D6C /* SQNetWorkAgent.m */,
+				FDCADAB02DA85E510F4E61D2F0A4005D /* SQNetWork */,
 			);
-			name = Agent;
-			path = SQNetWork/Classes/Agent;
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		FDCADAB02DA85E510F4E61D2F0A4005D /* SQNetWork */ = {
+			isa = PBXGroup;
+			children = (
+				2447F464FE474C774857A7FD1F7413B9 /* SQNetWork.h */,
+				07306A9022533D62007081DC /* SQNMacro.h */,
+				07306A9222533EFD007081DC /* SQNNetWorkingDefines.h */,
+				07306A8C22531D0A007081DC /* Protocol */,
+				0D507C07C8006A9A9DC29D71757A0684 /* Cache */,
+				B554EDDB46E4F6E22E721E7B137B7FF1 /* Core */,
+				93C5602D9276E09DA68486316084EAB5 /* Pod */,
+				1CEB2F3848FBB3D2F72A04DA1F626BA6 /* Support Files */,
+				7FD183387A5F33A987F821238C4E969A /* Tools */,
+			);
+			name = SQNetWork;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -2165,15 +2197,19 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				07306A8E225338F6007081DC /* SQNNetWorkRequestProtocol.h in Headers */,
 				62E654F7180B592841BD378B6A087A1C /* AFAutoPurgingImageCache.h in Headers */,
 				076C00AFD23F6DF56093E24AC4E1F72A /* AFCompatibilityMacros.h in Headers */,
-				07CE3F2C22439B5000FA3E78 /* SQLocalDataManager.h in Headers */,
 				9A5CA25A63AF0B4164AE2959E548015B /* AFHTTPSessionManager.h in Headers */,
 				077E63D68E41DAF6AB92F95C562258A7 /* AFImageDownloader.h in Headers */,
 				E6937F73D5B04BE67153D3C3AACD8922 /* AFNetworkActivityIndicatorManager.h in Headers */,
+				07306A8B22531CFE007081DC /* SQNNetWorkResponseProtocol.h in Headers */,
 				8B2874F670DAE042FD93DFB056E59C52 /* AFNetworking-umbrella.h in Headers */,
 				9B4D9E80D31B0B9EBE56273D5298CBE7 /* AFNetworking.h in Headers */,
+				07306A8022531C79007081DC /* SQNNetWorkResponse.h in Headers */,
+				07306A8422531C8E007081DC /* SQNNetWorkPingTool.h in Headers */,
 				B0FE1AC303CE8CB9F7C029AD1D3D1E12 /* AFNetworkReachabilityManager.h in Headers */,
+				07306A8822531CB0007081DC /* SQNNetWorkRequestConfig.h in Headers */,
 				891AAE82F26D8020470FC40F20A46C6C /* AFSecurityPolicy.h in Headers */,
 				F06A1D57921458C44558DDC1E36F3776 /* AFURLRequestSerialization.h in Headers */,
 				19DE2D2B6053CF645CE5C574A5B1C616 /* AFURLResponseSerialization.h in Headers */,
@@ -2181,9 +2217,12 @@
 				1A053FC07DB072A8E9E210F96108F523 /* UIActivityIndicatorView+AFNetworking.h in Headers */,
 				E7805B558ACD291DAE469478DA1D29E2 /* UIButton+AFNetworking.h in Headers */,
 				33029FDB5016A2F7A44E187BB61840F8 /* UIImage+AFNetworking.h in Headers */,
+				07306A9A22535F21007081DC /* SQNNetWorkResponseInterceptor.h in Headers */,
 				567B4BF4309674A8523DF1E20D4671F2 /* UIImageView+AFNetworking.h in Headers */,
+				07306A7C22531C6E007081DC /* SQNNetWokrManager.h in Headers */,
 				63F74DC48DB6AC67A18783389FF8F45F /* UIKit+AFNetworking.h in Headers */,
 				B8710DD9E63184D147DD79CC87ACB4CD /* UIProgressView+AFNetworking.h in Headers */,
+				07306A96225353BD007081DC /* SQNNetWorkBaseRequest.h in Headers */,
 				FB3E46B9FF369995DA726ADEE05D8763 /* UIRefreshControl+AFNetworking.h in Headers */,
 				7DCFC748C7F8BBBC410C0C5157A1B9F5 /* UIWebView+AFNetworking.h in Headers */,
 			);
@@ -2261,19 +2300,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FE1482EA39D708BAA2D954A82246582C /* Headers */ = {
+		DF9C46203ABF979C05B2C3FB3DBDA9C1 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B07A9E64721742429281A8EF382E9735 /* SQNetWork-umbrella.h in Headers */,
-				74A0B94639BE7B73698D740B5AC79583 /* SQNetWorkAgent.h in Headers */,
-				8C19EAC9CB6BE650C7037E038C5B0D14 /* SQReqeustCache.h in Headers */,
-				07CE3F3522439CDE00FA3E78 /* SQReqeustCache+WCTTableCoding.h in Headers */,
-				07CE3F3A22439D2300FA3E78 /* SQNetWork.h in Headers */,
-				07CE3F3E22439F7800FA3E78 /* SQNetWorkConfig.h in Headers */,
-				07CE3F462243A0AE00FA3E78 /* SQNetWorkResponse.h in Headers */,
-				07CE3F422243A00000FA3E78 /* SQNetWorkPingTool.h in Headers */,
-				07CE3F4A2243A10C00FA3E78 /* SQNetProxy.h in Headers */,
+				B4A78707AAE5B99D70342865C6CC3DDF /* SQLocalDataManager.h in Headers */,
+				07306A9122533D63007081DC /* SQNMacro.h in Headers */,
+				EB734FBD11F36B4D1D8C5017F76B6E2B /* SQNetWork-umbrella.h in Headers */,
+				07306A9322535123007081DC /* SQNNetWorkingDefines.h in Headers */,
+				371E402339462A2AA6AEB579B4B29903 /* SQNetWork.h in Headers */,
+				1D9C2D1D006680A28C2C5816FDBBD040 /* SQReqeustCache+WCTTableCoding.h in Headers */,
+				A3EA77FDB0F7ACFD82A38F34B8501607 /* SQReqeustCache.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2284,8 +2321,8 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5F0FD08A7EE4E896CB883B8670AF3B82 /* Build configuration list for PBXNativeTarget "SQNetWork" */;
 			buildPhases = (
-				FE1482EA39D708BAA2D954A82246582C /* Headers */,
-				0E68D34C5B403BA0559C09570BB2E0EB /* Sources */,
+				DF9C46203ABF979C05B2C3FB3DBDA9C1 /* Headers */,
+				25AE354A8D8F696C4C74C4164816D20E /* Sources */,
 				E3599329943634D7C876C3D11604799F /* Frameworks */,
 				A697BDF3EBD87BE833E68B1B33F28C31 /* Resources */,
 			);
@@ -2502,20 +2539,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		0E68D34C5B403BA0559C09570BB2E0EB /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				07CE3F432243A00000FA3E78 /* SQNetWorkPingTool.m in Sources */,
-				07CE3F3F22439F7800FA3E78 /* SQNetWorkConfig.m in Sources */,
-				55CBFD06D4BA8DB476A2CD29C0D5BA14 /* SQNetWork-dummy.m in Sources */,
-				37089FA0D31BC428EEDE71F1DA11600E /* SQNetWorkAgent.m in Sources */,
-				07CE3F4B2243A10C00FA3E78 /* SQNetProxy.m in Sources */,
-				130B69BBCC3AE906FF13C0B895D082E6 /* SQReqeustCache.mm in Sources */,
-				07CE3F472243A0AE00FA3E78 /* SQNetWorkResponse.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		14D2078180EFBB22D11932B2D118A932 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -2664,6 +2687,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		25AE354A8D8F696C4C74C4164816D20E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC6CA704BC9EC036C745E572500A49C9 /* SQLocalDataManager.m in Sources */,
+				93BF1A1150FB0BF3AAC3DC7DEAE074C5 /* SQNetWork-dummy.m in Sources */,
+				07306A98225353C0007081DC /* SQNNetWorkBaseRequest.m in Sources */,
+				BD41DBFAAF6BC747DAC0FE697EE23461 /* SQReqeustCache.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		88FDB79FF2904B45664221335032E3F4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -2793,18 +2827,21 @@
 				775FD4041C972482A0AC5A31665EA870 /* AFHTTPSessionManager.m in Sources */,
 				66E037C310853F72B9AB5C84FC410C32 /* AFImageDownloader.m in Sources */,
 				3D26FEB0D3C003CEF1FFAB3567A87747 /* AFNetworkActivityIndicatorManager.m in Sources */,
-				07CE3F2D22439B5000FA3E78 /* SQLocalDataManager.m in Sources */,
+				07306A8122531C79007081DC /* SQNNetWorkResponse.m in Sources */,
 				C65745E59B3D0A1C9A417B77AB884EE5 /* AFNetworking-dummy.m in Sources */,
 				EF377BD250E23E1145A17E69C5A31F5F /* AFNetworkReachabilityManager.m in Sources */,
+				07306A7D22531C6E007081DC /* SQNNetWokrManager.m in Sources */,
 				87067D260F4DB26CF268F5AF886981D7 /* AFSecurityPolicy.m in Sources */,
 				F84D5B6C81712530B75013FFA8FA3A3B /* AFURLRequestSerialization.m in Sources */,
 				459B7981366B750E67C9C930A9D04402 /* AFURLResponseSerialization.m in Sources */,
+				07306A8922531CB0007081DC /* SQNNetWorkRequestConfig.m in Sources */,
 				8AD5DCF40D6F1D970FAE3C28C7606317 /* AFURLSessionManager.m in Sources */,
 				9CCE08031C818A1904C5E4714830CD04 /* UIActivityIndicatorView+AFNetworking.m in Sources */,
 				6A7096283C7036C4B97030657219BFEF /* UIButton+AFNetworking.m in Sources */,
 				A5B3CF0C5588B8345E6AD6DAE3851F65 /* UIImageView+AFNetworking.m in Sources */,
 				3E6CBE5A96B3532700E9524AAB3C5BFB /* UIProgressView+AFNetworking.m in Sources */,
 				8550C1877103EDD75172BAA7A9718236 /* UIRefreshControl+AFNetworking.m in Sources */,
+				07306A8522531C8E007081DC /* SQNNetWorkPingTool.m in Sources */,
 				CEC18DC7883A5DB076FCF6F4C164F3CD /* UIWebView+AFNetworking.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -2942,7 +2979,7 @@
 		};
 		2AB580E557606493BB28BF3560445D09 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 876B6A784C7B7D907085CC2F77FE6596 /* SQNetWork.xcconfig */;
+			baseConfigurationReference = DE5562F7E83F9D5A07468628A2A48274 /* SQNetWork.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -3231,7 +3268,7 @@
 		};
 		8E197FE736AE6FA0261080138777806E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 876B6A784C7B7D907085CC2F77FE6596 /* SQNetWork.xcconfig */;
+			baseConfigurationReference = DE5562F7E83F9D5A07468628A2A48274 /* SQNetWork.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";

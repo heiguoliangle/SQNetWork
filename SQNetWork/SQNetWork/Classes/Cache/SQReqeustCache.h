@@ -9,7 +9,7 @@
 
 
 NS_ASSUME_NONNULL_BEGIN
-
+/// 网络数据返回类
 @interface SQReqeustCache : NSObject
 /// 请求接口hash值
 @property(nonatomic,assign)NSInteger indentify;
