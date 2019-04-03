@@ -2,15 +2,17 @@
 //  SQNetWork.h
 //  SQNetWork
 //
-//  Created by heiguoliangle on 2019/3/21.
+//  Created by heiguoliangle on 2019/4/3.
 //
 
-#import <Foundation/Foundation.h>
+#ifndef SQNetWork_h
+#define SQNetWork_h
 
-NS_ASSUME_NONNULL_BEGIN
+#import "SQNNetWokrManager.h"
+#import "SQNNetWorkResponse.h"
+#import "SQNNetWorkBaseRequest.h"
+#import "SQNNetWorkResponseProtocol.h"
+#import "SQNNetWorkResponseInterceptor.h"
+#import "SQNNetWorkResponseProtocol.h"
 
-@interface SQNetWork : NSObject
-
-@end
-
-NS_ASSUME_NONNULL_END
+#endif /* SQNetWork_h */

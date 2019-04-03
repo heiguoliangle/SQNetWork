@@ -7,6 +7,8 @@
 //
 
 #import "SQViewController.h"
+#import <SQNetWork/SQNetWork.h>
+#import "SQCompressHelp.h"
 
 @interface SQViewController ()
 
@@ -17,6 +19,8 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
+    [[SQCompressHelp new]upload];
 	// Do any additional setup after loading the view, typically from a nib.
 }
 

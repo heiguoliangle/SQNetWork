@@ -58,4 +58,8 @@
     }
 }
 
+#pragma mark - SQNNetWorkResponseProtocol
+
+
+
 @end

@@ -13,11 +13,6 @@ NS_ASSUME_NONNULL_BEGIN
 
 @protocol SQNNetWorkRequestProtocol <NSObject>
 
-- (NSString *)requestBelongGrouop;
-- (NSDictionary *)allHTTPHeaderFields;
-- (AFHTTPRequestSerializer *)sessionManagerRequestSerializer;
-
-- (SQNManagerRequestType)requestType;
 
 - (NSDictionary *)resultWithResponseObject:(id)responseObject response:(NSURLResponse *)response error:(NSError **)error;
 

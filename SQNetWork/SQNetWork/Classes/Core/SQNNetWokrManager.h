@@ -19,6 +19,8 @@ typedef void(^SQNCallback)(SQNNetWorkResponse * response);
 
 @interface SQNNetWokrManager : NSObject
 
+@property(nonatomic,copy)NSString * baseURL;
+
 - (void)callServiceWithRequest:(SQNNetWorkBaseRequest *)request success:(SQNCallback)success fail:(SQNCallback)fail;
 
 - (void)cancelAllRequests;

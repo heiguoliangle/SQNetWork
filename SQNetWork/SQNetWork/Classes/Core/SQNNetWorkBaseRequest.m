@@ -7,18 +7,31 @@
 
 #import "SQNNetWorkBaseRequest.h"
 
+@interface SQNNetWorkBaseRequest ()
+@property(nonatomic,strong,readwrite) AFHTTPRequestSerializer * requestSerializer;
+@end
+
 @implementation SQNNetWorkBaseRequest
 
 #pragma mark - SQNNetWorkRequestProtocol
 
-- (NSDictionary<NSString *,NSString *> *)allHTTPHeaderFields{
-    return @{
-             
-             };
+- (instancetype)init
+{
+    self = [super init];
+    if (self) {
+        self.compressType = SQNManagerRequestCompressTypeNone;
+        self.requestSerializer = [AFHTTPRequestSerializer serializer];
+    }
+    return self;
 }
 
-- (SQNManagerRequestType)requestType{
-    return SQNManagerRequestTypeGet;
+- (AFHTTPRequestSerializer *)sessionManagerRequestSerializer{
+    AFHTTPRequestSerializer * serializer = [AFHTTPRequestSerializer serializer];
+    
+    if (self.compressType != SQNManagerRequestCompressTypeNone) {
+        [serializer setValue:@"gzip" forHTTPHeaderField:@"Content-Encoding"];
+    }
+    return serializer;
 }
 
 #pragma mark - SQNNetWorkResponseProtocol

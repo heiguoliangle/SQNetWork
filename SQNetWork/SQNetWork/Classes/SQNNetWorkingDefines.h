@@ -15,6 +15,12 @@ typedef NS_ENUM (NSUInteger, SQNManagerRequestType){
     SQNManagerRequestTypeGet,
 };
 
+typedef NS_ENUM (NSUInteger, SQNManagerRequestCompressType){
+    /// 不采用压缩
+    SQNManagerRequestCompressTypeNone,
+    /// 采用snappy压缩
+    SQNManagerRequestCompressTypeSnappy,
+};
 
 typedef NS_ENUM (NSUInteger, SQNManagerErrorType){
     /// 需要重新刷新accessToken

@@ -19,6 +19,7 @@
     "ios": "8.0"
   },
   "source_files": "SQNetWork/Classes/**/*",
+  "public_header_files": "Pod/Classes/SQNetWork.h",
   "dependencies": {
     "AFNetworking": [
 

@@ -10,6 +10,7 @@
 #import "SQNMacro.h"
 #import "SQNNetWorkResponse.h"
 #import <objc/runtime.h>
+#import "Snappy-ObjC.h"
 
 static NSString *sqkbIndentiKey = @"sqkbIndentiKey";
 @interface NSURLSessionDataTask (SQKB)
@@ -48,12 +49,24 @@ static NSString *sqkbIndentiKey = @"sqkbIndentiKey";
 {
     __block NSURLSessionDataTask *dataTask = nil;
     AFHTTPSessionManager * sessionManager = [self sessionManagerWithRequest:request];
-    AFHTTPRequestSerializer * requestSerializer = [AFHTTPRequestSerializer serializer];
-    [self _configRequestSerializerWithRequest:request serializer:requestSerializer];
     
-    sessionManager.requestSerializer = requestSerializer;
+    if (![request.interceptorDelegate respondsToSelector:@selector(shouldCallAPIWithParams:)]) {
+       BOOL beforeCallInterceptor = [request.interceptorDelegate shouldCallAPIWithParams:request.parameters];
+        if (!beforeCallInterceptor) {
+            NSError * error = [[NSError alloc]initWithDomain:@"请求未开启" code:-1 userInfo:@{
+                                                                                                                                            
+                                                                                                                                            NSLocalizedFailureReasonErrorKey : @"请求参数判断异常"                                                                                 }];
+            SQNNetWorkResponse * responseFailed = [[SQNNetWorkResponse alloc]initWithResponseString:@"" request:request responseObject:nil error:error];
+            
+            fail(responseFailed);
+            return;
+        }
+    }
     
-    dataTask = [sessionManager dataTaskWithRequest:request uploadProgress:nil downloadProgress:nil completionHandler:^(NSURLResponse * _Nonnull response, id  _Nullable responseObject, NSError * _Nullable error) {
+    NSURLRequest * requestURL = [self _buildRequestWithBaseRequest:request];
+    
+    sessionManager.requestSerializer = request.requestSerializer;
+    dataTask = [sessionManager dataTaskWithRequest:requestURL uploadProgress:nil downloadProgress:nil completionHandler:^(NSURLResponse * _Nonnull response, id  _Nullable responseObject, NSError * _Nullable error) {
         
         [self.dispatchTaskArray removeObject:dataTask];
         NSDictionary * result = [request resultWithResponseObject:responseObject response:response error:&error];
@@ -71,6 +84,10 @@ static NSString *sqkbIndentiKey = @"sqkbIndentiKey";
     }
     [self _addTaskToTaskPool:dataTask];
     [dataTask resume];
+    
+    if (![request.interceptorDelegate respondsToSelector:@selector(afterCallingAPIWithParams::)]) {
+        [request.interceptorDelegate afterCallingAPIWithParams:request.parameters];
+    }
     
     
 }
@@ -98,13 +115,32 @@ static NSString *sqkbIndentiKey = @"sqkbIndentiKey";
 
 #pragma mark - 私有方法
 
-- (void)_configRequestSerializerWithRequest:(SQNNetWorkBaseRequest *)request serializer:(AFHTTPRequestSerializer *)requestSerializer{
-    if ([request respondsToSelector:@selector(sessionManagerRequestSerializer)]) {
-        AFHTTPRequestSerializer * serializer = [request sessionManagerRequestSerializer];
-        if (serializer) {
-            requestSerializer = serializer;
+- (NSURLRequest *)_buildRequestWithBaseRequest:(SQNNetWorkBaseRequest *)request {
+    NSString * requestMethod = @"get";
+    if (request.requestType == SQNManagerRequestTypeGet) {
+        requestMethod = @"get";
+    }else if (request.requestType == SQNManagerRequestTypePost){
+        requestMethod = @"post";
+    }
+    NSDictionary<NSString *,NSString *> * dict = [request allHTTPHeaderFields];
+    [dict enumerateKeysAndObjectsUsingBlock:^(NSString * _Nonnull key, NSString * _Nonnull obj, BOOL * _Nonnull stop) {
+        [request.requestSerializer setValue:obj forHTTPHeaderField:key];
+    }];
+    NSMutableDictionary * parameters = [NSMutableDictionary dictionary];
+    [parameters setObject:request.parameters forKey:@"data"];
+    if (request.compressType == SQNManagerRequestCompressTypeSnappy) {
+       NSData * requestData = [request.parameters data];
+       NSData *compressed = [requestData snappy_compressedData];
+        if (compressed.length >= 0 && compressed) {
+            NSString * compressStr = [compressed base64EncodedStringWithOptions:NSDataBase64Encoding64CharacterLineLength];
+            [parameters setObject:compressStr forKey:@"data"];
         }
     }
+    
+    NSString * url = [[NSString alloc]initWithFormat:@"%@%@",self.baseURL,request.requestPath ];
+    
+    return [request.requestSerializer requestWithMethod:requestMethod URLString:self.baseURL parameters:parameters error:nil];
+    
 }
 
 - (void)_addTaskToTaskPool:(NSURLSessionDataTask *)task {
@@ -118,14 +154,6 @@ static NSString *sqkbIndentiKey = @"sqkbIndentiKey";
 {
     return  YES;
 }
-
-#pragma mark - 默认配置
-
-- (void)defaultConfigForRequest:(NSURLRequest *)request {
-    
-    
-}
-
 
 #pragma mark - 懒加载
 
